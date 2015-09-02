@@ -22,9 +22,8 @@ public class FileManager {
 		 for(Entry<Integer,StringOfText> entry : map.entrySet()) {
 			    Integer key = entry.getKey();
 			    StringOfText value = entry.getValue();
-			    System.out.println(key+value.getEnglish()+value.getRussian()+value.getEnglishRandomString());
-			    // do what you have to do here
-			    // In your case, an other loop.
+			    System.out.println(key+" "+value.getEnglish()+" "+value.getRussian()+" "+value.getEnglishRandomString());
+			 
 			}
 		
 		
