@@ -19,6 +19,10 @@ public class StringOfText {
 		return result.toString()+".";
 	}
 	
+	public String getDescription(){
+		return english.substring(0, 7)+"...";
+	}
+	
 	private int randomWithRange(int min, int max)
 	{
 	   int range = (max - min) + 1;     
@@ -46,8 +50,10 @@ public class StringOfText {
 		this.english = english;
 	}
 	public static  void main(String[] arg){
+		System.out.println(new StringOfText().getDescription());
 		String m = new StringOfText().getEnglishRandomString();
 		System.out.println(m);
+		
 	}
 
 }
