@@ -54,7 +54,7 @@
                         </AnchorPane>
                       <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
                            <children>
-                              <SplitPane dividerPositions="0.5460122699386503" layoutX="128.0" layoutY="-17.0" orientation="VERTICAL" prefHeight="165.0" prefWidth="465.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                              <SplitPane dividerPositions="0.6012269938650306" layoutX="128.0" layoutY="-17.0" orientation="VERTICAL" prefHeight="165.0" prefWidth="465.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                 <items>
                                   <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
                                        <children>
@@ -67,14 +67,14 @@
                                     </AnchorPane>
                                   <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
                                        <children>
-                                          <CheckBox layoutX="14.0" layoutY="31.0" mnemonicParsing="false" text="CheckBox" />
-                                          <Button layoutX="129.0" layoutY="27.0" mnemonicParsing="false" text="Button" />
-                                          <Button layoutX="207.0" layoutY="27.0" mnemonicParsing="false" text="Button" />
-                                          <Button layoutX="278.0" layoutY="27.0" mnemonicParsing="false" text="Button" />
-                                          <Label layoutX="360.0" layoutY="14.0" text="Label" />
-                                          <Label layoutX="413.0" layoutY="14.0" text="Label" />
-                                          <Label layoutX="360.0" layoutY="43.0" text="Label" />
-                                          <Label layoutX="413.0" layoutY="43.0" text="Label" />
+                                          <CheckBox layoutX="14.0" layoutY="19.0" mnemonicParsing="false" text="CheckBox" />
+                                          <Button layoutX="129.0" layoutY="19.0" mnemonicParsing="false" text="Button" />
+                                          <Button layoutX="207.0" layoutY="19.0" mnemonicParsing="false" text="Button" />
+                                          <Button layoutX="280.0" layoutY="19.0" mnemonicParsing="false" text="Button" />
+                                          <Label layoutX="360.0" layoutY="11.0" text="Label" />
+                                          <Label layoutX="413.0" layoutY="11.0" text="Label" />
+                                          <Label layoutX="360.0" layoutY="35.0" text="Label" />
+                                          <Label layoutX="413.0" layoutY="35.0" text="Label" />
                                        </children>
                                     </AnchorPane>
                                 </items>

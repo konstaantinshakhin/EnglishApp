@@ -9,7 +9,7 @@ public class StringOfText {
 	private String russian;
 	
 	public String getEnglishRandomString(){
-		//String str = getEnglish();
+		
 		String arrStr[] = getEnglish().split(" ");
 		HashSet<String> strSet = new HashSet<String>(Arrays.asList(arrStr));
 		StringBuilder result= new StringBuilder();
