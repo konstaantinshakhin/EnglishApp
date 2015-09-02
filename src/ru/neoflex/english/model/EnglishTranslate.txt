@@ -1,4 +1,4 @@
-﻿What's your name.	Как вас зовут.
+﻿What's your name. 	Как вас зовут.
 My name is John.	Меня зовут Джон.
 How old is he.	Сколько ему лет.
 He is twelve years old.	Ему двенадцать лет.
