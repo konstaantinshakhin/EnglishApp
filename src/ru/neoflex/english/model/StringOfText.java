@@ -3,14 +3,28 @@ package ru.neoflex.english.model;
 import java.util.Arrays;
 import java.util.HashSet;
 
+import javafx.beans.property.SimpleStringProperty;
+import javafx.beans.property.StringProperty;
+
 public class StringOfText {
 	
-	private String english="They are from England";
+	private String english;
 	private String russian;
 	
+	private final StringProperty engString;
+    private final StringProperty rusString;
+    
+    public StringOfText() {
+        this(null, null);
+    }
+	
+    public StringOfText(String engString, String rusString) {
+        this.engString = new SimpleStringProperty(engString);
+        this.rusString = new SimpleStringProperty(rusString);
+    }
 	public String getEnglishRandomString(){
 		
-		String arrStr[] = getEnglish().split(" ");
+		String arrStr[] = getEngString().split(" ");
 		HashSet<String> strSet = new HashSet<String>(Arrays.asList(arrStr));
 		StringBuilder result= new StringBuilder();
 		for(String str:strSet){
@@ -19,8 +33,12 @@ public class StringOfText {
 		return result.toString()+".";
 	}
 	
-	public String getDescription(){
-		return english.substring(0, 7)+"...";
+	public String getEngDescription(){
+		return getEngString().substring(0, 7)+"...";
+	}
+	
+	public String getRusDescription(){
+		return getRusString().substring(0, 7)+"...";
 	}
 	
 	private int randomWithRange(int min, int max)
@@ -28,32 +46,31 @@ public class StringOfText {
 	   int range = (max - min) + 1;     
 	   return (int)(Math.random() * range) + min;
 	}
+
+	public String getEngString() {
+		return engString.get();
+	}
+
+	public String getRusString() {
+		return rusString.get();
+	}
+	
+	public void setRusString(String rusString){
+			this.rusString.set(rusString);
+		} 
+	
+	public void setEngString(String engString){
+		this.engString.set(engString);
+		} 
+	
+	public StringProperty engStringProperty() {
+        return engString;
+		}
+	
+	public StringProperty rusStringProperty() {
+        return rusString;
+		}
+	}
 	
 
-	public String getRussian() {
-		return russian;
-	}
 
-	public void setRussian(String russian) {
-		this.russian = russian;
-	}
-
-
-
-	public String getEnglish() {
-		return english;
-	}
-
-
-
-	public void setEnglish(String english) {
-		this.english = english;
-	}
-	public static  void main(String[] arg){
-		System.out.println(new StringOfText().getDescription());
-		String m = new StringOfText().getEnglishRandomString();
-		System.out.println(m);
-		
-	}
-
-}

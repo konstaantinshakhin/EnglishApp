@@ -1,8 +1,9 @@
 
-
+package ru.neoflex.english;
 
 import java.io.IOException;
 
+import ru.neoflex.english.controller.PanelQuestionsController;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -22,7 +23,7 @@ public class Main extends Application {
 
         initRootLayout();
 
-        showPersonOverview();
+        showStringOverview();
     }
 
     /**
@@ -32,7 +33,7 @@ public class Main extends Application {
         try {
             // Load root layout from fxml file.
             FXMLLoader loader = new FXMLLoader();
-            loader.setLocation(Main.class.getResource("ru/neoflex/english/view/RootLayout.fxml"));
+            loader.setLocation(Main.class.getResource("view/RootLayout.fxml"));
             rootLayout = (BorderPane) loader.load();
 
             // Show the scene containing the root layout.
@@ -47,15 +48,18 @@ public class Main extends Application {
     /**
      * Shows the person overview inside the root layout.
      */
-    public void showPersonOverview() {
+    public void showStringOverview() {
         try {
             // Load person overview.
             FXMLLoader loader = new FXMLLoader();
-            loader.setLocation(Main.class.getResource("ru/neoflex/english/view/PanalQuestionsView.fxml"));
-            AnchorPane personOverview = (AnchorPane) loader.load();
+            loader.setLocation(Main.class.getResource("view/PanelQuestionsView.fxml"));
+            AnchorPane panelOverview = (AnchorPane) loader.load();
 
             // Set person overview into the center of root layout.
-            rootLayout.setCenter(personOverview);
+            rootLayout.setCenter(panelOverview);
+            
+            PanelQuestionsController controller = loader.getController();
+            controller.setMainApp(this);
         } catch (IOException e) {
             e.printStackTrace();
         }

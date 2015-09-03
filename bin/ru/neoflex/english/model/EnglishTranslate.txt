@@ -1,0 +1,150 @@
+﻿What's your name. 	Как вас зовут.
+My name is John.	Меня зовут Джон.
+How old is he.	Сколько ему лет.
+He is twelve years old.	Ему двенадцать лет.
+They are from England.	Они из Англии.
+We live in London.	Мы проживаем в Лондоне.
+My family isn't big.	У меня небольшая семья.
+Our parents are both teachers.	Наши родители оба учителя.
+His younger sister is only four years old.	Его младшей сестре всего четыре годика.
+I go to a state secondary school.	Я хожу в среднюю общеобразовательную школу.
+Jane's favourite subjects are Arts and Maths.	Любимые предметы Джейн искусство и математика.
+My favourite colour is red.	Мой любимый цвет красный.
+Her grandparents come from Austria.	Ее дедушка с бабушкой родом из Австрии.
+We have a two-storey house.	У нас двухэтажный дом.
+There are three bedrooms and a dining room in it.	В нем три спальни и одна столовая комната.
+There is a large table in the centre of the room.	В центре комнаты стоит большой стол.
+There aren't any pets in our house.	В нашем доме нет питомцев.
+Gerome lives next to the library.	Джером живет рядом с библиотекой.
+It is my birthday today.	Сегодня мой день рождения.
+We are having a party.	У нас будет вечеринка.
+The weather is fine.	Погода прекрасная.
+Let's go for a walk in the woods.	Давайте пойдем на прогулку в лес.
+It isn't raining today.	Сегодня не дождит.
+Angela works as a secretary.	Анджела работает секретарем.
+He lives a busy life.	У него очень насыщенная жизнь.
+I don't go out often.	Я нечасто выхожу в свет.
+We normally stay in at the weekends.	Мы обычно проводим выходные дома.
+Gagarin was a famous cosmonaut.	Гагарин был выдающимся космонавтом.
+Lena's parents were born in Moscow.	Родители Лены родились в Москве.
+Do you speak English.	Вы говорите по-английски.
+What do you do.	Чем Вы занимаетесь.
+What are you doing now.	Что Вы делаете сейчас.
+It's a nice day, isn't it.	Прекрасный денек, не так ли.
+Who is your favourite singer.	Кто Ваш любимый певец.
+I like playing volleyball and ping-pong.	Я люблю играть в волейбол и настольный теннис.
+I don't like meat and fish.	Мне не нравится мясо и рыба.
+They would like to sell their house.	Они хотели бы продать свой дом.
+Anna wakes up at 7 am every day.	Анна просыпается в 7 утра ежедневно.
+October is usually rainy.	Октябрь обычно дождливый.
+They often forget to bring their homework.	Они часто забывают приносить свою домашнюю работу.
+He is never late for work.	Он никогда не опаздывает на работу.
+Elephants are bigger than tigers.	Слоны крупнее тигров.
+Cheetahs are the fastest land animals.	Гепарды самые быстрые наземные животные.
+It is the most interesting book I've ever read.	Это самая интересная книга, которую я когда-либо читал.
+Emily can count to ten and write the basic letters.	Эмили может считать до десяти и писать основные буквы.
+All pupils must wear a unifrorm to school.	Все ученики должны носить в школе униформу.
+You should visit the dentist.	Вам следует сходить к стоматологу.
+It is going to be a great holiday.	Отпуск обещает быть отличным.
+She will get married soon.	Она скоро выйдет замуж.
+I have been to Prague twice.	Я бывал в Праге дважды.
+Let me introduce my brother.	Позвольте мне представить моего брата.
+Come and meet my family.	Приходите познакомиться с моей семьей.
+His cousins come from Sweden.	Его кузены родом из Швеции.
+People say we are a friendly family.	Люди говорят, что мы дружная семья.
+They are kind and hospitable.	Они добры и гостеприимны.
+These pets' names are Gina and Ken.	Этих питомцев зовут Джина и Кен.
+His alarm goes off every morning.	Его будильник срабатывает каждое утро.
+He hates cowards and hypocrites.	Он ненавидит трусов и лицемеров.
+Kelly likes being praised all the time.	Келли любит, когда ее все время хвалят.
+Our parents would like to travel more often.	Наши родители хотели бы чаще путешествовать.
+He doesn't seem to be happy.	Он не кажется счастливым.
+I insist on going to the theatre.	Я настаиваю на походе в театр.
+My boss offered to extend winter vacation.	Мой босс предложил продлить зимние каникулы.
+Mind your own business and don't interfere with me.	Занимайся своими делами и не вмешивайся в мои.
+Let's have a picnic in the countryside.	Давайте устроим пикник в сельской местности.
+Don't judge people by their appearance.	Не судите о людях по их внешнему виду.
+They changed my car's flat tire.	Они сменили спущенное колесо на моей машине.
+The flat tyre was changed by a professional mechanic.	Спущенное колесо сменил профессиональный механик.
+He wrote a critical review on this book.	Он написал критическую рецензию на эту книгу.
+A critical review on this book was written by him.	Критическая рецензия на эту книгу была написана им.
+Susan will clean the house every Wednesday.	Сьюзан будет убирать дом каждую среду.
+The house will be cleaned by Susan every Wednesday.	Дом будет убран Сьюзан каждую среду .
+The state fund donated some money to the homeless shelter.	Государственный фонд пожертвовал деньги на приют для бездомных.
+Some money was donated to the homeless shelter by the state fund.	Немного денег было передано в приют для бездомных государственным фондом.
+The football team will celebrate their victory tomorrow evening.	Футбольная команда будет праздновать свою победу завтра вечером.
+The victory of the football team will be celebrated tomorrow evening.	Победа футбольной команды будет отпразднована завтра вечером.
+Do you often arrive late to meetings.	Часто ли вы прибываете поздно на заседания.
+Where has he been all this time.	Где он был все это время.
+That's a nice scarf, isn't it.	Это хороший шарф, не так ли.
+Who plays the main part in this movie.	Кто играет главную роль в этом фильме.
+How many students came to the lesson.	Сколько студентов явилось на урок.
+When was the last time you travelled by plane.	Когда Вы в последний раз путешествовали самолетом.
+It was you, who made me lose my temper.	Именно ты заставил меня потерять самообладание.
+My mother was the person who taught me how to read and write.	Моя мать была тем человеком, который научил меня читать и писать.
+Jeremy is a hard-working, reliable and responsible person.	Джереми является трудолюбивым, надежным и ответственным человеком.
+She was wearing a stunning dress at the reception party.	Она была одета в сногсшибательное платье на приеме.
+It was extremely hard to come to a compromise with him.	Было очень трудно прийти с ним к компромису.
+The lane that led to my house was absolutely terryfying.	Проулок, ведущий к моему дому, был невероятно ужасающим.
+We are really exhausted and starving.	Мы действительно сильно устали и умираем от голода.
+Their house is enormous compared to ours.	Их дом огромных размеров, по сравнению с нашим.
+The Nile is the longest river in the wrold.	Нил - самая длинная река в мире.
+Lake Baikal is the deepest freshwater lake in the world.	Озеро Байкал - самое глубокое пресноводное озеро в мире.
+If Marcello won a million, he would definitely donate it to the charity.	Если бы Марселло выиграл миллион, он, несомненно, пожертвовал бы его на благотворительность.
+It would have been a good idea if we had agreed to participate in this musical show.	С нашей стороны было бы хорошо согласиться принять участие в этом музыкальном шоу.
+The man, who lives next door, is an excellent vet.	Человек, который живет по соседству, является отличным ветеринаром.
+Madonna, whose husband is much younger than her, is a well-known singer.	Мадонна, чей муж намного моложе ее, является известной певицей.
+We bought a new coffee machine which makes wonderful coffee.	Мы купили новую кофеварку, которая делает замечательный кофе.
+The place, where I was born, is far away from here.	Место, где я родился, очень далеко отсюда.
+I'm going to wear the skirt that I bought in Milan.	Я собираюсь надеть юбку, которую купила в Милане.
+Can you see the tree that has no leaves.	Видите ли Вы дерево, которое без лиcтьев.
+How can I get to the railway station.	Как мне добраться до железнодорожного вокзала.
+One ticket to London, please.	Один билет до Лондона, пожалуйста.
+I want to reserve two tickets for the 5:30 pm train.	Я хотел бы забронировать два билета на поезд, отходящий в 17.30.
+How much is the single ticket.	Сколько стоит билет в один конец.
+Where can I book the train (plane, bus) tickets.	Где я могу забронировать билеты на поезд (самолет, автобус).
+I would like to pay in cash (by credit card, by cheque).	Я хотел бы заплатить наличными (кредитной картой, чеком).
+I have two luggage pieces.	Мой багаж состоит из двух сумок.
+We'd like a slumber coach.	Мы хотели бы купе на двоих.
+I'd like a lower berth.	Я хотел бы место на нижней полке.
+How can I go to the platform.	Как мне добраться до платформы.
+Call the porter, please.	Позовите, пожалуйста, носильщика.
+How long will the trip take.	Сколько времени займет путешествие.
+Where is the information desk.	Где находится справочная.
+I want to buy two tickets for the nearest flight to Berlin.	Я хотел бы приобрести два билета на ближайший рейс до Берлина.
+Are there any direct flights to Paris for tomorrow.	Если ли завтра прямые рейсы до Парижа.
+How can I return my ticket.	Как я могу вернуть свой билет.
+I'd like an aisle (window) seat, please.	Я бы хотел место у прохода (у окна), пожалуйста.
+Where do I have to change.	Где надо сделать пересадку.
+Where does the plane stop on the way.	Где по пути самолет делает посадку.
+Can I have two economy (business, first) class tickets to New York, please.	Можно мне два билета эконом-класса (бизнес-класса, первого класса) до Нью-Йорка, пожалуйста.
+When does the check-in begin.	Когда начинается регистрация.
+The flight is delayed by an hour.	Этот рейс задерживается на час.
+What's the charge for excess luggage.	Сколько стоит перевес багажа.
+I'm on a business trip.	Я в деловой командировке.
+I'm visiting my relatives.	Я навещаю родственников.
+I travel with a group.	Я путешествую с группой.
+Excuse me, I don't understand.	Извините, я не понимаю.
+Here is my passport (custom declaration, transit pass).	Вот мой паспорт (таможенная декларация, транзитная виза).
+What shall I mention in the declaration form.	Что мне следует указать в форме декларации.
+Could you please help me to fill in this form.	Вы не могли бы помочь мне заполнить этот бланк.
+I have nothing to declare.	Мне нечего декларировать.
+This is my hand luggage.	Это моя ручная кладь.
+These are my personal items.	Это мои личные вещи.
+I'd like to phone to the embassy.	Я хотел бы позвонить в посольство.
+Do you have any rooms available.	Есть ли у вас свободные номера.
+I'm staying for five nights.	Я пробуду пять ночей.
+I have booked a single (double) room in your hotel.	Я заказал одноместный (двухместный) номер в вашей гостинице.
+We are planning to stay for two days (a few more days).	Мы планируем пробыть два дня (еще несколько дней).
+Will you show me up to my room, please.	Покажите мне, пожалуйста, мою комнату.
+Shall I fill in this form.	Нужно ли мне заполнить эту форму.
+What is the price per night.	Какова цена за одну ночь.
+Do you accept credit cards.	Вы принимаете кредитные карточки.
+Give me the key for room number eleven, please.	Дайте мне, пожалуйста, ключи от комнаты номер одиннадцать.
+May I leave these valuables at the hotel safe.	Могу ли я оставить эти ценные вещи в сейфе отеля.
+We are leaving tomorrow.	Мы уезжаем завтра.
+How can I get to the city center.	Как я могу добраться до центра города.
+Which restaurant would you recommend.	Какой ресторан Вы бы порекомендовали.
+I would like to see the local sights.	Я хотела бы осмотреть местные достопримечательности.
+Could you show me where the nearest bus stop (subway station) is.	Вы не могли бы мне показать, где ближайшая остановка автобуса (станция метро).
+Is it a long way from here.	Далеко ли это отсюда.
