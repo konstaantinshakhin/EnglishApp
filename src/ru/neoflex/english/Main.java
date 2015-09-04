@@ -6,6 +6,7 @@ import java.util.Map;
 import java.util.Map.Entry;
 
 import ru.neoflex.english.controller.PanelQuestionsController;
+import ru.neoflex.english.controller.RootLayoutController;
 import ru.neoflex.english.model.FileManager;
 import ru.neoflex.english.model.StringOfText;
 import javafx.application.Application;
@@ -36,6 +37,9 @@ public class Main extends Application {
     public ObservableList<StringOfText> getStringData(){
     	return stringData;
     }
+    public void setStringData(ObservableList<StringOfText> stringData){
+    	this.stringData = stringData ;
+    }
 
     @Override
     public void start(Stage primaryStage) {
@@ -60,6 +64,10 @@ public class Main extends Application {
             // Show the scene containing the root layout.
             Scene scene = new Scene(rootLayout);
             primaryStage.setScene(scene);
+            primaryStage.show();
+            RootLayoutController controller = loader.getController();
+            controller.setMainApp(this);
+
             primaryStage.show();
         } catch (IOException e) {
             e.printStackTrace();

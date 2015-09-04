@@ -49,12 +49,12 @@ public class FileManager {
 		return strText;
 	}
 	
-	public Map<Integer,StringOfText> readFile(String fileName) throws Exception{
+	public Map<Integer,StringOfText> readFile(File file) throws Exception{
 		String line;
-		if(fileName == null) {
-			fileName = "C:\\Users\\kshahin\\workspace\\EnglishApp\\src\\ru\\neoflex\\english\\model\\EnglishTranslate.txt";
+		if(file == null) {
+			file = new File("C:\\Users\\kshahin\\workspace\\EnglishApp\\src\\ru\\neoflex\\english\\model\\EnglishTranslate.txt");
 		}
-		FileReader fileReader = new FileReader(new File(fileName));
+		FileReader fileReader = new FileReader(file);
 		BufferedReader br = new BufferedReader(fileReader);
 		int i = 0;
 		Map<Integer,StringOfText>  map = new  HashMap<Integer,StringOfText>();
