@@ -8,8 +8,7 @@ import javafx.beans.property.StringProperty;
 
 public class StringOfText {
 	
-	private String english;
-	private String russian;
+	
 	
 	private final StringProperty engString;
     private final StringProperty rusString;

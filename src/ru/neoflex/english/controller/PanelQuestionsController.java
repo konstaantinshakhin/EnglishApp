@@ -10,14 +10,14 @@ import ru.neoflex.english.Main;
 
 public class PanelQuestionsController {
 	
-//	@FXML
-//    private TableView<StringOfText> txtTable;
+	@FXML
+    private TableView<StringOfText> txtTable;
 	
     @FXML
     private TableColumn<StringOfText, String> materialColumn;
     
     @FXML
-    private Label textRitghLabel;
+    private Label textRightLabel;
     
     @FXML
     private Label textLeftLabel;
@@ -40,15 +40,16 @@ public class PanelQuestionsController {
     @FXML
     private void initialize() {
         // Initialize the person table with the two columns.
-    	//textRitgh.setCellValueFactory(cellData -> cellData.getValue().engStringProperty);
-    	//textLeft.setCellValueFactory(cellData -> cellData.getValue().rusStringProperty);
-    	showTextDetails(new StringOfText("the should visit You dentist","Вам следует сходить к стоматологу"));
+    	materialColumn.setCellValueFactory(cellData -> cellData.getValue().engStringProperty());
+    	
+    	showTextDetails(new StringOfText("You should visit  the  dentist","Вам следует сходить\n к стоматологу"));
     }
     private void showTextDetails(StringOfText strTxt) {
         if (strTxt != null) {
             // Fill the labels with info from the person object.
-//        	textRitghLabel.setText(strTxt.getEnglishRandomString());
-//        	textLeftLabel.setText(strTxt.getRusString());
+        	String str = strTxt.getEnglishRandomString();
+        	textRightLabel.setText(str);
+        	textLeftLabel.setText(strTxt.getRusString());
         	
         	
 //        	textRitghLabel.setText("the should visit You dentist");
@@ -56,7 +57,7 @@ public class PanelQuestionsController {
            
         } else {
             // Person is null, remove all the text.
-        	textRitghLabel.setText("");
+        	textRightLabel.setText("");
         	textLeftLabel.setText("");
             
         }
@@ -71,7 +72,7 @@ public class PanelQuestionsController {
         this.main = main;
 
         // Add observable list data to the table
-       // txtTable.setItems(main.getStringData());
+       txtTable.setItems(main.getStringData());
     }
 
 }

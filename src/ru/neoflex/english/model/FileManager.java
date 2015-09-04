@@ -22,7 +22,7 @@ public class FileManager {
 		 for(Entry<Integer,StringOfText> entry : map.entrySet()) {
 			    Integer key = entry.getKey();
 			    StringOfText value = entry.getValue();
-			    System.out.println(key+" "+value.getEngString()+" "+value.getRusString()+" "+value.getEnglishRandomString());
+			    //System.out.println(key+" "+value.getEngString()+" "+value.getRusString()+" "+value.getEnglishRandomString());
 			 
 			}
 		
