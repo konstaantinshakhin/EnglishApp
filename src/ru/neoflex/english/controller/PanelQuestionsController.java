@@ -31,7 +31,7 @@ public class PanelQuestionsController {
     // Reference to the main application.
     private Main main;
     
-    private boolean hint = false;
+    private boolean mix = false;
 
     /**
      * The constructor.
@@ -57,12 +57,12 @@ public class PanelQuestionsController {
     	
     }
     private void showTextDetails(StringOfText strTxt) {
-        if (strTxt != null && !hint) {
+        if (strTxt != null && mix) {
             // Fill the labels with info from the person object.
         	textRightLabel.setText(strTxt.getEnglishRandomString());
         	textLeftLabel.setText(strTxt.getRusString());
         	
-        } else if (strTxt != null && hint)  {
+        } else if (strTxt != null && !mix)  {
         	textRightLabel.setText(strTxt.getEngString());
         	textLeftLabel.setText(strTxt.getRusString());
             
@@ -76,10 +76,12 @@ public class PanelQuestionsController {
         
         if(chksHint.isSelected())
         	
-        		hint = true;
+        		mix = true;
         if(!chksHint.isSelected()){
-        		hint = false;
+        		mix = false;
         	}
+        txtTable.getSelectionModel().selectedItemProperty().addListener(
+                (observable, oldValue, newValue) -> showTextDetails(newValue));
         
 }
     /**
