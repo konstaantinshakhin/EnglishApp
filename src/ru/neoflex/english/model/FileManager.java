@@ -22,7 +22,7 @@ public class FileManager {
 		 for(Entry<Integer,StringOfText> entry : map.entrySet()) {
 			    Integer key = entry.getKey();
 			    StringOfText value = entry.getValue();
-			    //System.out.println(key+" "+value.getEngString()+" "+value.getRusString()+" "+value.getEnglishRandomString());
+			    System.out.println(key+" "+value.getEngString()+" "+value.getRusString()+" "+value.getEnglishRandomString());
 			 
 			}
 		
@@ -30,7 +30,7 @@ public class FileManager {
 	}
 	
 	private StringOfText parseLine(String line){
-		String[] str = line.split("\\.");
+		String[] str = line.split("\\|");
 		StringOfText  strText= new StringOfText(str[0],str[1]);
 //		strText.setEnglish(str[0]);
 //		strText.setRussian(str[1]);

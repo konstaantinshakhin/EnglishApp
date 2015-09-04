@@ -2,8 +2,11 @@
 package ru.neoflex.english;
 
 import java.io.IOException;
+import java.util.Map;
+import java.util.Map.Entry;
 
 import ru.neoflex.english.controller.PanelQuestionsController;
+import ru.neoflex.english.model.FileManager;
 import ru.neoflex.english.model.StringOfText;
 import javafx.application.Application;
 import javafx.collections.FXCollections;
@@ -18,14 +21,19 @@ public class Main extends Application {
 
     private Stage primaryStage;
     private BorderPane rootLayout;
-    
+    private FileManager fm;
     private ObservableList<StringOfText> stringData = FXCollections.observableArrayList();
     
-    public Main() {
+    public Main() throws Exception {
+    	fm = new FileManager();
+    	 Map<Integer,StringOfText> mapStr =  fm.readFile(null);
+    	 for(Entry<Integer,StringOfText> entry : mapStr.entrySet()) {
+    		 stringData.add(entry.getValue());
+    	 }
         // Add some sample data
-        stringData.add(new  StringOfText("You should visit  the  dentist","Вам следует сходить\n к стоматологу"));
+//        stringData.add(new  StringOfText("You should visit  the  dentist","Вам следует сходить\n к стоматологу"));
     
-        stringData.add(new  StringOfText("Hello World","Привет Мир"));
+//        stringData.add(new  StringOfText("Hello World","Привет Мир"));
     }
     
     public ObservableList<StringOfText> getStringData(){

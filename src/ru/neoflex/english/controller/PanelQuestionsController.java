@@ -40,23 +40,22 @@ public class PanelQuestionsController {
     @FXML
     private void initialize() {
         // Initialize the person table with the two columns.
-    	materialColumn.setCellValueFactory(cellData -> cellData.getValue().engStringProperty());
+    	materialColumn.setCellValueFactory(cellData -> cellData.getValue().rusStringProperty());
+    	showTextDetails(null);
+
+        // Listen for selection changes and show the person details when changed.
+        txtTable.getSelectionModel().selectedItemProperty().addListener(
+                (observable, oldValue, newValue) -> showTextDetails(newValue));
     	
-    	showTextDetails(new StringOfText("You should visit  the  dentist","Вам следует сходить\n к стоматологу"));
+    	
     }
     private void showTextDetails(StringOfText strTxt) {
         if (strTxt != null) {
             // Fill the labels with info from the person object.
-        	String str = strTxt.getEnglishRandomString();
-        	textRightLabel.setText(str);
+        	textRightLabel.setText(strTxt.getEnglishRandomString());
         	textLeftLabel.setText(strTxt.getRusString());
         	
-        	
-//        	textRitghLabel.setText("the should visit You dentist");
-//        	textLeftLabel.setText("Вам следует сходить к стоматологу");
-           
         } else {
-            // Person is null, remove all the text.
         	textRightLabel.setText("");
         	textLeftLabel.setText("");
             
