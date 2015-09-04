@@ -1,6 +1,6 @@
-﻿What's your name.|Как вас зовут.
+﻿What's your name?|Как вас зовут?
 My name is John.|Меня зовут Джон.
-How old is he.|Сколько ему лет.
+How old is he?|Сколько ему лет?
 He is twelve years old.|Ему двенадцать лет.
 They are from England.|Они из Англии.
 We live in London.|Мы проживаем в Лондоне.
@@ -27,9 +27,9 @@ I don't go out often.|Я нечасто выхожу в свет.
 We normally stay in at the weekends.|Мы обычно проводим выходные дома.
 Gagarin was a famous cosmonaut.|Гагарин был выдающимся космонавтом.
 Lena's parents were born in Moscow.|Родители Лены родились в Москве.
-Do you speak English.|Вы говорите по-английски.
-What do you do.|Чем Вы занимаетесь.
-What are you doing now.|Что Вы делаете сейчас.
+Do you speak English?|Вы говорите по-английски?
+What do you do?|Чем Вы занимаетесь?
+What are you doing now?|Что Вы делаете сейчас?
 It's a nice day, isn't it.|Прекрасный денек, не так ли.
 Who is your favourite singer.|Кто Ваш любимый певец.
 I like playing volleyball and ping-pong.|Я люблю играть в волейбол и настольный теннис.
@@ -77,9 +77,9 @@ The victory of the football team will be celebrated tomorrow evening.|Побед
 Do you often arrive late to meetings.|Часто ли вы прибываете поздно на заседания.
 Where has he been all this time.|Где он был все это время.
 That's a nice scarf, isn't it.|Это хороший шарф, не так ли.
-Who plays the main part in this movie.|Кто играет главную роль в этом фильме.
-How many students came to the lesson.|Сколько студентов явилось на урок.
-When was the last time you travelled by plane.|Когда Вы в последний раз путешествовали самолетом.
+Who plays the main part in this movie?|Кто играет главную роль в этом фильме?
+How many students came to the lesson?|Сколько студентов явилось на урок?
+When was the last time you travelled by plane?|Когда Вы в последний раз путешествовали самолетом?
 It was you, who made me lose my temper.|Именно ты заставил меня потерять самообладание.
 My mother was the person who taught me how to read and write.|Моя мать была тем человеком, который научил меня читать и писать.
 Jeremy is a hard-working, reliable and responsible person.|Джереми является трудолюбивым, надежным и ответственным человеком.
@@ -98,53 +98,53 @@ We bought a new coffee machine which makes wonderful coffee.|Мы купили �
 The place, where I was born, is far away from here.|Место, где я родился, очень далеко отсюда.
 I'm going to wear the skirt that I bought in Milan.|Я собираюсь надеть юбку, которую купила в Милане.
 Can you see the tree that has no leaves.|Видите ли Вы дерево, которое без лиcтьев.
-How can I get to the railway station.|Как мне добраться до железнодорожного вокзала.
+How can I get to the railway station?|Как мне добраться до железнодорожного вокзала?
 One ticket to London, please.|Один билет до Лондона, пожалуйста.
 I want to reserve two tickets for the 5:30 pm train.|Я хотел бы забронировать два билета на поезд, отходящий в 17.30.
-How much is the single ticket.|Сколько стоит билет в один конец.
-Where can I book the train (plane, bus) tickets.|Где я могу забронировать билеты на поезд (самолет, автобус).
+How much is the single ticket?|Сколько стоит билет в один конец?
+Where can I book the train (plane, bus) tickets?|Где я могу забронировать билеты на поезд (самолет, автобус)?
 I would like to pay in cash (by credit card, by cheque).|Я хотел бы заплатить наличными (кредитной картой, чеком).
 I have two luggage pieces.|Мой багаж состоит из двух сумок.
 We'd like a slumber coach.|Мы хотели бы купе на двоих.
 I'd like a lower berth.|Я хотел бы место на нижней полке.
-How can I go to the platform.|Как мне добраться до платформы.
+How can I go to the platform?|Как мне добраться до платформы?
 Call the porter, please.|Позовите, пожалуйста, носильщика.
-How long will the trip take.|Сколько времени займет путешествие.
-Where is the information desk.|Где находится справочная.
+How long will the trip take?|Сколько времени займет путешествие?
+Where is the information desk?|Где находится справочная?
 I want to buy two tickets for the nearest flight to Berlin.|Я хотел бы приобрести два билета на ближайший рейс до Берлина.
-Are there any direct flights to Paris for tomorrow.|Если ли завтра прямые рейсы до Парижа.
-How can I return my ticket.|Как я могу вернуть свой билет.
+Are there any direct flights to Paris for tomorrow?|Если ли завтра прямые рейсы до Парижа?
+How can I return my ticket?|Как я могу вернуть свой билет?
 I'd like an aisle (window) seat, please.|Я бы хотел место у прохода (у окна), пожалуйста.
-Where do I have to change.|Где надо сделать пересадку.
-Where does the plane stop on the way.|Где по пути самолет делает посадку.
-Can I have two economy (business, first) class tickets to New York, please.|Можно мне два билета эконом-класса (бизнес-класса, первого класса) до Нью-Йорка, пожалуйста.
-When does the check-in begin.|Когда начинается регистрация.
+Where do I have to change?|Где надо сделать пересадку?
+Where does the plane stop on the way?|Где по пути самолет делает посадку?
+Can I have two economy (business, first) class tickets to New York, please?|Можно мне два билета эконом-класса (бизнес-класса, первого класса) до Нью-Йорка, пожалуйста?
+When does the check-in begin?|Когда начинается регистрация?
 The flight is delayed by an hour.|Этот рейс задерживается на час.
-What's the charge for excess luggage.|Сколько стоит перевес багажа.
+What's the charge for excess luggage?|Сколько стоит перевес багажа?
 I'm on a business trip.|Я в деловой командировке.
 I'm visiting my relatives.|Я навещаю родственников.
 I travel with a group.|Я путешествую с группой.
 Excuse me, I don't understand.|Извините, я не понимаю.
 Here is my passport (custom declaration, transit pass).|Вот мой паспорт (таможенная декларация, транзитная виза).
-What shall I mention in the declaration form.|Что мне следует указать в форме декларации.
-Could you please help me to fill in this form.|Вы не могли бы помочь мне заполнить этот бланк.
+What shall I mention in the declaration form?|Что мне следует указать в форме декларации?
+Could you please help me to fill in this form?|Вы не могли бы помочь мне заполнить этот бланк?
 I have nothing to declare.|Мне нечего декларировать.
 This is my hand luggage.|Это моя ручная кладь.
 These are my personal items.|Это мои личные вещи.
 I'd like to phone to the embassy.|Я хотел бы позвонить в посольство.
-Do you have any rooms available.|Есть ли у вас свободные номера.
+Do you have any rooms available?|Есть ли у вас свободные номера?
 I'm staying for five nights.|Я пробуду пять ночей.
 I have booked a single (double) room in your hotel.|Я заказал одноместный (двухместный) номер в вашей гостинице.
 We are planning to stay for two days (a few more days).|Мы планируем пробыть два дня (еще несколько дней).
 Will you show me up to my room, please.|Покажите мне, пожалуйста, мою комнату.
-Shall I fill in this form.|Нужно ли мне заполнить эту форму.
-What is the price per night.|Какова цена за одну ночь.
-Do you accept credit cards.|Вы принимаете кредитные карточки.
+Shall I fill in this form?|Нужно ли мне заполнить эту форму?
+What is the price per night?|Какова цена за одну ночь?
+Do you accept credit cards?|Вы принимаете кредитные карточки?
 Give me the key for room number eleven, please.|Дайте мне, пожалуйста, ключи от комнаты номер одиннадцать.
-May I leave these valuables at the hotel safe.|Могу ли я оставить эти ценные вещи в сейфе отеля.
+May I leave these valuables at the hotel safe?|Могу ли я оставить эти ценные вещи в сейфе отеля?
 We are leaving tomorrow.|Мы уезжаем завтра.
-How can I get to the city center.|Как я могу добраться до центра города.
-Which restaurant would you recommend.|Какой ресторан Вы бы порекомендовали.
+How can I get to the city center?|Как я могу добраться до центра города?
+Which restaurant would you recommend?|Какой ресторан Вы бы порекомендовали?
 I would like to see the local sights.|Я хотела бы осмотреть местные достопримечательности.
-Could you show me where the nearest bus stop (subway station) is.|Вы не могли бы мне показать, где ближайшая остановка автобуса (станция метро).
-Is it a long way from here.|Далеко ли это отсюда.
+Could you show me where the nearest bus stop (subway station) is?|Вы не могли бы мне показать, где ближайшая остановка автобуса (станция метро)?
+Is it a long way from here?|Далеко ли это отсюда?
