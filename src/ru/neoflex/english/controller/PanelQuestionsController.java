@@ -1,6 +1,8 @@
 package ru.neoflex.english.controller;
 
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.scene.control.CheckBox;
 import javafx.scene.control.Label;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
@@ -22,9 +24,14 @@ public class PanelQuestionsController {
     @FXML
     private Label textLeftLabel;
     
+    @FXML
+    private CheckBox chksHint;
+    
 
     // Reference to the main application.
     private Main main;
+    
+    private boolean hint = false;
 
     /**
      * The constructor.
@@ -42,7 +49,7 @@ public class PanelQuestionsController {
         // Initialize the person table with the two columns.
     	materialColumn.setCellValueFactory(cellData -> cellData.getValue().rusStringProperty());
     	showTextDetails(null);
-
+    	 chksHint.setOnAction(e -> handleButtonAction(e));
         // Listen for selection changes and show the person details when changed.
         txtTable.getSelectionModel().selectedItemProperty().addListener(
                 (observable, oldValue, newValue) -> showTextDetails(newValue));
@@ -50,18 +57,31 @@ public class PanelQuestionsController {
     	
     }
     private void showTextDetails(StringOfText strTxt) {
-        if (strTxt != null) {
+        if (strTxt != null && !hint) {
             // Fill the labels with info from the person object.
         	textRightLabel.setText(strTxt.getEnglishRandomString());
         	textLeftLabel.setText(strTxt.getRusString());
         	
-        } else {
+        } else if (strTxt != null && hint)  {
+        	textRightLabel.setText(strTxt.getEngString());
+        	textLeftLabel.setText(strTxt.getRusString());
+            
+        } else{
         	textRightLabel.setText("");
         	textLeftLabel.setText("");
-            
         }
     }
-
+    @FXML
+    private void handleButtonAction(ActionEvent e) {
+        
+        if(chksHint.isSelected())
+        	
+        		hint = true;
+        if(!chksHint.isSelected()){
+        		hint = false;
+        	}
+        
+}
     /**
      * Is called by the main application to give a reference back to itself.
      * 

@@ -30,10 +30,7 @@ public class Main extends Application {
     	 for(Entry<Integer,StringOfText> entry : mapStr.entrySet()) {
     		 stringData.add(entry.getValue());
     	 }
-        // Add some sample data
-//        stringData.add(new  StringOfText("You should visit  the  dentist","Вам следует сходить\n к стоматологу"));
-    
-//        stringData.add(new  StringOfText("Hello World","Привет Мир"));
+
     }
     
     public ObservableList<StringOfText> getStringData(){

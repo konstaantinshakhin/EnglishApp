@@ -29,11 +29,23 @@ public class FileManager {
 		
 	}
 	
+	private String formatString(String str,int j){
+		String[] str0 = str.split(" ");
+		StringBuilder strb= new StringBuilder();
+		for(int i= 0;i<str0.length;i++){
+			if ( (i!= 0)&&((i % j) == 0)){
+				strb.append(str0[i]+"\n");
+			}
+			else strb.append(str0[i]+" ");
+		}
+		return strb.toString();
+	}
+	
 	private StringOfText parseLine(String line){
 		String[] str = line.split("\\|");
-		StringOfText  strText= new StringOfText(str[0],str[1]);
-//		strText.setEnglish(str[0]);
-//		strText.setRussian(str[1]);
+		
+		StringOfText  strText= new StringOfText(formatString(str[0],4),formatString(str[1],2));
+
 		return strText;
 	}
 	
