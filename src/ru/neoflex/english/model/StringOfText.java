@@ -29,7 +29,7 @@ public class StringOfText {
 		for(String str:strSet){
 			result.append(str+" ");
 		}
-		return result.toString();
+		return result.toString().replace(".","").toLowerCase().replace("?", "");
 	}
 	
 	public String getEngDescription(){
