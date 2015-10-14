@@ -44,7 +44,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) {
         this.primaryStage = primaryStage;
-        this.primaryStage.setTitle("EnglishApp");
+        this.primaryStage.setTitle("EnglishMix");
 
         initRootLayout();
 

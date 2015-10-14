@@ -10,7 +10,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.MenuItem;
 import javafx.stage.FileChooser;
 
-//import org.controlsfx.dialog.Dialogs;
+import org.controlsfx.dialog.Dialogs;
 
 import ru.neoflex.english.Main;
 import ru.neoflex.english.model.FileManager;
@@ -42,7 +42,10 @@ public class RootLayoutController {
 	    private MenuItem fileOpen;
 	    
 	    @FXML
-	    private void handleOpen() {
+	    private MenuItem helpAbout;
+	    
+	    @FXML
+	    private void handleOpen() throws Exception {
 	        FileChooser fileChooser = new FileChooser();
 
 	        // Set extension filter
@@ -56,29 +59,29 @@ public class RootLayoutController {
 	        if (file != null) {
 	           // main.loadPersonDataFromFile(file);
 	        	fm = new FileManager();
-	       	 Map<Integer, StringOfText> mapStr = new HashMap<Integer, StringOfText>();
-			try {
+	        	Map<Integer, StringOfText> mapStr = new HashMap<Integer, StringOfText>();
+			
 				mapStr = fm.readFile(file);
-			} catch (Exception e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-	       	 //main.getStringData().removeAll(StringOfText);
+			
+			
+		
+			
+	       	 main.getStringData().removeAll(main.getStringData());
 	       	 for(Entry<Integer,StringOfText> entry : mapStr.entrySet()) {
-	       		 stringData.add(entry.getValue());
+	       		 main.getStringData().add(entry.getValue());
+	       		
 	       	 }
-	       	 
 	        }
 	    }
 	    
-//	    @FXML
-//	    private void handleAbout() {
-//	        Dialogs.create()
-//	            .title("AddressApp")
-//	            .masthead("About")
-//	            .message("Author: Marco Jakob\nWebsite: http://code.makery.ch")
-//	            .showInformation();
-//	    }
+	    @FXML
+	    private void handleAbout() {
+	        Dialogs.create()
+	            .title("AddressApp")
+	            .masthead("About")
+	            .message("Author: Marco Jakob\nWebsite: http://code.makery.ch")
+	            .showInformation();
+	    }
 
 	    /**
 	     * Closes the application.

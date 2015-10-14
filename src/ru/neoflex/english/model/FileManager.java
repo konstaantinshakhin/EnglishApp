@@ -42,10 +42,11 @@ public class FileManager {
 	}
 	
 	private StringOfText parseLine(String line){
+		StringOfText  strText = null;
 		String[] str = line.split("\\|");
 		
-		StringOfText  strText= new StringOfText(formatString(str[0],4),formatString(str[1],2));
-
+		strText= new StringOfText(formatString(str[0],4),formatString(str[1],2));
+		
 		return strText;
 	}
 	
@@ -59,8 +60,10 @@ public class FileManager {
 		int i = 0;
 		Map<Integer,StringOfText>  map = new  HashMap<Integer,StringOfText>();
 	    while ((line = br.readLine()) != null) {
+	    	if(line.split("\\|").length == 2){
 	    	map.put(new Integer(i), parseLine(line));
 	    	i++;
+	    	}
 	    }
 	    return map;
 	}
